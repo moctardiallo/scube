@@ -13,9 +13,10 @@ class App extends Component {
               y: [2, 6, 3],
               type: "scatter",
               mode: "lines+points",
-              marker: { color: "red" }
+              marker: { color: "red" },
+              name: "Scatter"
             },
-            { type: "bar", x: [1, 2, 3], y: [2, 5, 3] }
+            { type: "bar", x: [1, 2, 3], y: [2, 5, 3], name: "Bars" }
           ]}
           layout={{ width: 320, height: 240, title: "A Fancy Plot" }}
         />

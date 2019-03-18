@@ -7,6 +7,7 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-plotly.js": "^2.3.0",
+    "react-relay": "^3.0.0",
     "react-scripts": "2.1.8"
   },
   "scripts": {
@@ -23,5 +24,10 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "babel-plugin-relay": "^3.0.0",
+    "graphql": "^14.1.1",
+    "relay-compiler": "^3.0.0"
+  }
 }
