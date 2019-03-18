@@ -1,9 +1,9 @@
-package com.sapienscube.sencivil
+package com.sapienscube.sencivil.elections
     
 /* SimpleApp.scala */
 import org.apache.spark.sql.SparkSession
 
-object SenCivil extends App {
+object Elections extends App {
     val sample7file = "/home/mctrjalloh/projects/sapienscube/data/SAMPLE-FICHIER-ELECTORAL-2017.csv" // Should be some file on your system
     val spark = SparkSession
         .builder
@@ -17,7 +17,7 @@ object SenCivil extends App {
         .load(sample7file).cache()
     println
     println
-    println("SENCIVIL")
+    println("ELECTIONS")
     println
     println
     sample7data.show
